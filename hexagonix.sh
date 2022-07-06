@@ -1,8 +1,7 @@
 #!/bin/bash
 # Esse script deve ficar na raiz do projeto
 # 
-# Esse script foi adaptado para rodar sobre o Linux e versão do QEMU para Linux.
-# Não funciona rodando nativamente sobre o WSL 2. Para isso, utilize 'WSL.sh'
+# Esse script foi adaptado para rodar sobre o Linux, mas pode ser executado sobre o WSL (Windows)
 #
 #;;************************************************************************************
 #;;
@@ -14,7 +13,7 @@
 #;; ││ │││─┼┼┼┤┌┐│└┘│└┘││││├┼┼┐
 #;; └┘ └┴──┴┘└┴┘└┴─┐├──┴┘└┴┴┘└┘
 #;;              ┌─┘│          
-#;;              └──┘                            
+#;;              └──┘                              Versão 1.0
 #;;
 #;;
 #;;************************************************************************************
@@ -65,7 +64,7 @@ git clone https://github.com/hexagonix/HBoot "Boot/Hexagon Boot"
 # Vamos agora clonar os respositórios de utilitários
 
 git clone https://github.com/hexagonix/Unix-Apps Apps/Unix
-git clone https://github.com/hexagonix/Andromeda-Apps Apps/Unix
+git clone https://github.com/hexagonix/Andromeda-Apps Apps/Andromeda
 
 # Vamos clonar as bibliotecas 
 
@@ -104,7 +103,7 @@ cd ..
 chmod +x configure.sh hx 
 
 echo
-echo -e "[\e[32mPronto\e[0m]"
+echo -e "[\e[32mTudo pronto!\e[0m]"
 echo
 
 exit 
