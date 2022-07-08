@@ -51,10 +51,10 @@ O script configure.sh é responsável por criar arquivos estáticos necessários
 sudo ./configure.sh
 ```
 
-Após a execução, você está apto a construir o sistema. Para isso, você deve utilizar a ferramente hx, presente no diretório do sistema e que também foi copiada para /usr/bin. Para gerar uma imagem do Hexagonix e Andromeda, use:
+Após a execução, você está apto a construir o sistema. Para isso, você deve utilizar a ferramenta hx, presente no diretório do sistema e que também foi copiada para /usr/bin. Para gerar uma imagem do Hexagonix e Andromeda, use:
 
 ```
-hx img.HX # Gerar uma imagem do Hexagonix
+hx img.HX        # Gerar uma imagem do Hexagonix
 hx img.ANDROMEDA # Gerar uma imagem do Andromeda
 ```
 
@@ -63,7 +63,7 @@ hx img.ANDROMEDA # Gerar uma imagem do Andromeda
 Para executar o sistema, utilize (você deve ter a ferramenta qemu instalada em seu computador):
 
 ```
-hx mv.HX # Para iniciar amáquina virtual utilizando a imagem do Hexagonix
+hx mv.HX        # Para iniciar amáquina virtual utilizando a imagem do Hexagonix
 hx mv.ANDROMEDA # Para iniciar amáquina virtual utilizando a imagem do Andromeda
 ```
 
@@ -72,4 +72,3 @@ Para mais informações, confira a documentação.
 <!-- Versão do arquivo: 1.0 -->
 
 Copyright © 2015-2022 Felipe Miguel Nery Lunkes
-
