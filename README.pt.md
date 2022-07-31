@@ -63,8 +63,8 @@ hx img.ANDROMEDA # Gerar uma imagem do Andromeda
 Para executar o sistema, utilize (você deve ter a ferramenta qemu instalada em seu computador):
 
 ```
-hx mv.HX        # Para iniciar amáquina virtual utilizando a imagem do Hexagonix
-hx mv.ANDROMEDA # Para iniciar amáquina virtual utilizando a imagem do Andromeda
+hx mv.HX        # Para iniciar a máquina virtual utilizando a imagem do Hexagonix
+hx mv.ANDROMEDA # Para iniciar a máquina virtual utilizando a imagem do Andromeda
 ```
 
 Para mais informações, confira a documentação.
