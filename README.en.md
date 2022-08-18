@@ -39,19 +39,19 @@ After running the script, you must access the created Hexagonix directory, using
 cd Hexagonix
 ```
 
-Now, you must configure the configure.sh script to run, using, in the terminal:
+Now, you must configure the `configure.sh` script to run, using, in the terminal:
 
 ```
 chmod +x configure.sh
 ```
 
-The configure.sh script is responsible for creating static files needed for the build, such as build information and system configuration files, as well as checking all build dependencies and preparing the rest of the scripts and images for execution. The script must be executed as the root user, using:
+The `configure.sh` script is responsible for creating static files needed for the build, such as build information and system configuration files, as well as checking all build dependencies and preparing the rest of the scripts and images for execution. The script must be executed as the root user, using:
 
 ```
 sudo ./configure.sh
 ```
 
-After execution, you are ready to build the system. For that, you must use the hx tool, present in the system directory and which was also copied to /usr/bin. To generate an image of Hexagonix and Andromeda, use:
+After execution, you are ready to build the system. For that, you must use the `hx` tool, present in the system directory and which was also copied to `/usr/bin`. To generate an image of Hexagonix and Andromeda, use:
 
 ```
 hx img.HX        # Generate a Hexagonix image
