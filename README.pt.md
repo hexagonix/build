@@ -10,7 +10,7 @@ O mecanismo de construção do Hexagonix/Andromeda foi construído para automati
 
 ## hexagonix.sh
 
-O script [hexagonix.sh](hexagonix.sh), presente neste repositório, é responsável por realizar a clonagem dos repositórios e configuração de arquivos. deixando tudo pronto para a construção. Para começar, realize o download do script ou clone o repositório para seu computador. Caso tenha o comando git instalado em seu computador, use (já no diretório final que deseja adicionar os fontes do sistema, como /home/usuario/, por exemplo):
+O script [hexagonix.sh](hexagonix.sh), presente neste repositório, é responsável por realizar a clonagem dos repositórios e configuração de arquivos, deixando tudo pronto para a construção. Para começar, realize o download do script ou clone o repositório para seu computador. Caso tenha o comando git instalado em seu computador, use (já no diretório final que deseja adicionar os fontes do sistema, como /home/usuario/, por exemplo):
 
 ```
 git clone https://github.com/hexagonix/build
