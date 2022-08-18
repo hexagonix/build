@@ -10,7 +10,7 @@ O mecanismo de construção do Hexagonix/Andromeda foi construído para automati
 
 ## hexagonix.sh
 
-O script [hexagonix.sh](hexagonix.sh), presente neste repositório, é responsável por realizar a clonagem dos repositórios e configuração de arquivos, deixando tudo pronto para a construção. Para começar, realize o download do script ou clone o repositório para seu computador. Caso tenha o comando git instalado em seu computador, use (já no diretório final que deseja adicionar os fontes do sistema, como /home/usuario/, por exemplo):
+O script [hexagonix.sh](hexagonix.sh), presente neste repositório, é responsável por realizar a clonagem dos repositórios e configuração de arquivos, deixando tudo pronto para a construção. Para começar, realize o download do script ou clone o repositório para seu computador. Caso tenha o comando `git` instalado em seu computador, use (já no diretório final que deseja adicionar os fontes do sistema, como `/home/usuario/`, por exemplo):
 
 ```
 git clone https://github.com/hexagonix/build
@@ -23,7 +23,7 @@ cd build # Caso você tenha clonado. Se não, vá até o local de download do sc
 chmod +x hexagonix.sh
 ```
 
-Após configurar o script como executável, você deve executá-lo, utilizando (é necessário ter o git instalado em seu computador):
+Após configurar o script como executável, você deve executá-lo, utilizando (é necessário ter o `git` instalado em seu computador):
 
 ```
 ./hexagonix.sh
@@ -39,19 +39,19 @@ Após a execução do script, você deve acessar o diretório Hexagonix criado, 
 cd Hexagonix
 ```
 
-Agora, você deve configurar o script configure.sh para execução, utilizando, no terminal:
+Agora, você deve configurar o script `configure.sh` para execução, utilizando, no terminal:
 
 ```
 chmod +x configure.sh
 ```
 
-O script configure.sh é responsável por criar arquivos estáticos necessários à construção, como informações de build e arquivos de configuração do sistema, bem como checar todas as dependências de construção e preparar o restante dos scripts e imagens para a execução. A execução do script deve ser realizada como usuário root, utilizando:
+O script `configure.sh` é responsável por criar arquivos estáticos necessários à construção, como informações de build e arquivos de configuração do sistema, bem como checar todas as dependências de construção e preparar o restante dos scripts e imagens para a execução. A execução do script deve ser realizada como usuário root, utilizando:
 
 ```
 sudo ./configure.sh
 ```
 
-Após a execução, você está apto a construir o sistema. Para isso, você deve utilizar a ferramenta hx, presente no diretório do sistema e que também foi copiada para /usr/bin. Para gerar uma imagem do Hexagonix e Andromeda, use:
+Após a execução, você está apto a construir o sistema. Para isso, você deve utilizar a ferramenta `hx`, presente no diretório do sistema e que também foi copiada para `/usr/bin`. Para gerar uma imagem do Hexagonix e Andromeda, use:
 
 ```
 hx img.HX        # Gerar uma imagem do Hexagonix
