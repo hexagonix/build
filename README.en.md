@@ -10,7 +10,7 @@ The Hexagonix/Andromeda build engine was built to automate the process of mounti
 
 ## hexagonix.sh
 
-The script [hexagonix.sh](hexagonix.sh), present in this repository, is responsible for cloning the repositories and configuring files, leaving everything ready for construction. To get started, download the script or clone the repository to your computer. If you have the git command installed on your computer, use (already in the final directory where you want to add the system sources, such as /home/user/, for example):
+The script [hexagonix.sh](hexagonix.sh), present in this repository, is responsible for cloning the repositories and configuring files, leaving everything ready for construction. To get started, download the script or clone the repository to your computer. If you have the `git` command installed on your computer, use (already in the final directory where you want to add the system sources, such as `/home/user/`, for example):
 
 ```
 git clone https://github.com/hexagonix/build
@@ -23,7 +23,7 @@ cd build # In case you have cloned. If not, go to the script download location
 chmod +x hexagonix.sh
 ```
 
-After configuring the script as executable, you must run it, using (you must have git installed on your computer):
+After configuring the script as executable, you must run it, using (you must have `git` installed on your computer):
 
 ```
 ./hexagonix.sh
