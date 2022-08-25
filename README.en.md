@@ -1,8 +1,23 @@
 <!-- Vamos adicionar o logotipo do sistema -->
 
 <p align="center">
-<img src="https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix.png" width="250" height="250">
+<img src="https://github.com/hexagonix/Doc/blob/main/Img/Hexagonix.png" width="150" height="150">
 </p>
+
+<div align="center">
+
+![](https://img.shields.io/github/license/hexagonix/build.svg)
+![](https://img.shields.io/github/stars/hexagonix/build.svg)
+![](https://img.shields.io/github/issues/hexagonix/build.svg)
+![](https://img.shields.io/github/issues-closed/hexagonix/build.svg)
+![](https://img.shields.io/github/issues-pr/hexagonix/build.svg)
+![](https://img.shields.io/github/issues-pr-closed/hexagonix/build.svg)
+![](https://img.shields.io/github/downloads/hexagonix/build/total.svg)
+![](https://img.shields.io/github/release/hexagonix/build.svg)
+
+</div>
+
+<hr>
 
 # Putting everything in its place
 
