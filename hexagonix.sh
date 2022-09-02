@@ -1,7 +1,8 @@
 #!/bin/bash
 # Esse script deve ficar na raiz do projeto
 # 
-# Esse script foi adaptado para rodar sobre o Linux, mas pode ser executado sobre o WSL (Windows)
+# Esse script foi escrito para ser executado sobre o Linux, mas pode ser executado 
+# sobre o WSL (Windows) sem problema aparente
 #
 #;;************************************************************************************
 #;;
@@ -13,7 +14,7 @@
 #;; ││ │││─┼┼┼┤┌┐│└┘│└┘││││├┼┼┐
 #;; └┘ └┴──┴┘└┴┘└┴─┐├──┴┘└┴┴┘└┘
 #;;              ┌─┘│          
-#;;              └──┘                              Versão 1.0
+#;;              └──┘                              Versão 1.1
 #;;
 #;;
 #;;************************************************************************************
@@ -102,6 +103,9 @@ cd ..
 
 chmod +x configure.sh hx 
 
+# Agora, remover o próprio script
+
+rm -r ../hexagonix.sh 
 echo
 echo -e "[\e[32mTudo pronto!\e[0m]"
 echo
@@ -130,6 +134,7 @@ echo -e ";;                                                                     
 echo -e ";;****************************************************************************"
 echo
 echo -e "Verificando dependências necessárias para clonar os repositórios..."
+echo 
 
 # Agora vamos verificar cada dependência do mecanismo de construção
 
