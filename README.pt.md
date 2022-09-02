@@ -84,6 +84,8 @@ hx mv.ANDROMEDA # Para iniciar a máquina virtual utilizando a imagem do Androme
 
 Para mais informações, confira a documentação.
 
-<!-- Versão do arquivo: 1.0 -->
+<!-- Versão do arquivo: 1.0
 
 Copyright © 2015-2022 Felipe Miguel Nery Lunkes
+
+-->
