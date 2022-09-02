@@ -31,7 +31,7 @@ O script [hexagonix.sh](hexagonix.sh), presente neste repositório, é responsá
 git clone https://github.com/hexagonix/build
 ```
 
-Após a clonagem ou download do [script](hexagonix.sh), você deve prepar ele para a execução. Para isso, use (com o terminal):
+Após a clonagem ou download do [script](hexagonix.sh), você deve preparar ele para a execução. Para isso, use (com o terminal):
 
 ```
 cd build # Caso você tenha clonado. Se não, vá até o local de download do script
