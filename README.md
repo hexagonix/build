@@ -4,15 +4,23 @@
 <img src="https://github.com/hexagonix/Doc/blob/main/Img/banner.png">
 </p>
 
-# Pegue um atalho/take a shortcut
+<details title="Construir o sistema/build the system" align='left'>
+<br>
+<summary align='left'><strong>🛠 Construir o sistema/build the system</strong></summary>
 
-* [Instruções para construção do sistema em português (Brasil)](README.pt.md)
-* [Instructions for building the system in English](README.en.md) 
+* [Português (Brasil)](README.pt.md)
+* [English](README.en.md)
 
-## Documentação/documentation
+</details>
 
-* [Clique aqui para ir à documentação do Hexagonix (em construção)](https://github.com/hexagonix/Doc)
-* [Click here to go to the Hexagonix documentation (under construction)](https://github.com/hexagonix/Doc)
+<details title="Documentação/documentation" align='left'>
+<br>
+<summary align='left'><strong>📚 Documentação/documentation</strong></summary>
+
+* [Português (Brasil) - em construção](https://github.com/hexagonix/Doc)
+* [English - under construction](https://github.com/hexagonix/Doc)
+
+</details>
 
 <!-- Versão do arquivo: 1.0 -->
 
