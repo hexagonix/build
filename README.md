@@ -4,6 +4,8 @@
 <img src="https://github.com/hexagonix/Doc/blob/main/Img/banner.png">
 </p>
 
+# ⭐ Pegue um atalho/take a shortcut
+
 <details title="Construir o sistema/build the system" align='left'>
 <br>
 <summary align='left'><strong>🛠 Construir o sistema/build the system</strong></summary>
@@ -22,6 +24,8 @@
 
 </details>
 
-<!-- Versão do arquivo: 1.0 -->
+<!-- Versão do arquivo: 1.0 
 
 Copyright © 2015-2022 Felipe Miguel Nery Lunkes
+
+-->
