@@ -69,8 +69,8 @@ sudo ./configure.sh
 Após a execução, você está apto a construir o sistema. Para isso, você deve utilizar a ferramenta `hx`, presente no diretório do sistema e que também foi copiada para `/usr/bin`. Para gerar uma imagem do Hexagonix e Andromeda, use:
 
 ```
-hx img.HX        # Gerar uma imagem do Hexagonix
-hx img.ANDROMEDA # Gerar uma imagem do Andromeda
+hx -i hx  # Gerar uma imagem do Hexagonix
+hx -i ahx # Gerar uma imagem do Andromeda
 ```
 
 ## Execução e testes
@@ -78,9 +78,11 @@ hx img.ANDROMEDA # Gerar uma imagem do Andromeda
 Para executar o sistema, utilize (você deve ter a ferramenta qemu instalada em seu computador):
 
 ```
-hx mv.HX        # Para iniciar a máquina virtual utilizando a imagem do Hexagonix
-hx mv.ANDROMEDA # Para iniciar a máquina virtual utilizando a imagem do Andromeda
+hx -v hx  # Para iniciar a máquina virtual utilizando a imagem do Hexagonix
+hx -v ahx # Para iniciar a máquina virtual utilizando a imagem do Andromeda
 ```
+
+Para ajuda sobre como utilizar o hx, utilize `hx -h`.
 
 Para mais informações, confira a documentação.
 
