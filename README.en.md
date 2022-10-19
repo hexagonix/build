@@ -21,7 +21,7 @@
 
 # Putting everything in its place
 
-The Hexagonix/Andromeda build engine was built to automate the process of mounting system fonts and creating a disk image that can be used to run and test the operating system on a virtual or physical machine. To perform these tasks, the build scripts expect to find files in certain places, which have already been chosen in advance. To facilitate this process for those who want to test the system and have not yet had contact with it, a script was created that clones the repositories necessary to build the system and puts everything in its place, leaving everything ready for construction and testing.
+The Hexagonix build engine was built to automate the process of mounting system fonts and creating a disk image that can be used to run and test the operating system on a virtual or physical machine. To perform these tasks, the build scripts expect to find files in certain places, which have already been chosen in advance. To facilitate this process for those who want to test the system and have not yet had contact with it, a script was created that clones the repositories necessary to build the system and puts everything in its place, leaving everything ready for construction and testing.
 
 ## hexagonix.sh
 
@@ -70,7 +70,6 @@ After execution, you are ready to build the system. For that, you must use the `
 
 ```
 hx -i hx  # Generate a Hexagonix image
-hx -i ahx # Generate an Andromeda image
 ```
 
 ## Execution and tests
@@ -79,13 +78,14 @@ To run the system, use (you must have the qemu tool installed on your computer):
 
 ```
 hx -v hx  # To start the virtual machine using the Hexagonix image
-hx -v ahx # To start the virtual machine using the Andromeda image
 ```
 
 For help using hx, use `hx -h`.
 
 For more information, check out the documentation.
 
-<!-- Versão do arquivo: 1.0 -->
+<!-- Versão do arquivo: 1.0
 
 Copyright © 2015-2022 Felipe Miguel Nery Lunkes
+
+-->
