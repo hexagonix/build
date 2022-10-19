@@ -21,7 +21,7 @@
 
 # Colocando tudo em seu lugar
 
-O mecanismo de construção do Hexagonix/Andromeda foi construído para automatizar o processo de montar os fontes do sistema e criar uma imagem de disco que pode ser utilizada para executar e testar o sistema operacional em máquina virtual ou física. Para executar essas tarefas, os scripts de construção esperam encontrar arquivos em determinados lugares, que já foram previamente escolhidos. Para facilitar esse processo para quem quer testar o sistema e ainda não teve contato com ele, foi criado um script que realiza a clonagem dos repositórios necessários à construção do sistema e coloca tudo em seu lugar, já deixando tudo pronto para a construção e testes.
+O mecanismo de construção do Hexagonix foi construído para automatizar o processo de montar os fontes do sistema e criar uma imagem de disco que pode ser utilizada para executar e testar o sistema operacional em máquina virtual ou física. Para executar essas tarefas, os scripts de construção esperam encontrar arquivos em determinados lugares, que já foram previamente escolhidos. Para facilitar esse processo para quem quer testar o sistema e ainda não teve contato com ele, foi criado um script que realiza a clonagem dos repositórios necessários à construção do sistema e coloca tudo em seu lugar, já deixando tudo pronto para a construção e testes.
 
 ## hexagonix.sh
 
@@ -70,7 +70,6 @@ Após a execução, você está apto a construir o sistema. Para isso, você dev
 
 ```
 hx -i hx  # Gerar uma imagem do Hexagonix
-hx -i ahx # Gerar uma imagem do Andromeda
 ```
 
 ## Execução e testes
@@ -79,7 +78,6 @@ Para executar o sistema, utilize (você deve ter a ferramenta qemu instalada em 
 
 ```
 hx -v hx  # Para iniciar a máquina virtual utilizando a imagem do Hexagonix
-hx -v ahx # Para iniciar a máquina virtual utilizando a imagem do Andromeda
 ```
 
 Para ajuda sobre como utilizar o hx, utilize `hx -h`.
