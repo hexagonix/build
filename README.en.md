@@ -87,7 +87,7 @@ After installation, you can proceed with this tutorial.
 
 # Putting everything in its place
 
-The Hexagonix build engine was built to automate the process of mounting system fonts and creating a disk image that can be used to run and test the operating system on a virtual or physical machine. To perform these tasks, the build scripts expect to find files in certain places, which have already been chosen in advance. To facilitate this process for those who want to test the system and have not yet had contact with it, a script was created that clones the repositories necessary to build the system and puts everything in its place, leaving everything ready for construction and testing.
+The Hexagonix build engine was built to automate the process of mounting system source code and creating a disk image that can be used to run and test the operating system on a virtual or physical machine. To perform these tasks, the build scripts expect to find files in certain places, which have already been chosen in advance. To facilitate this process for those who want to test the system and have not yet had contact with it, a script was created that clones the repositories necessary to build the system and puts everything in its place, leaving everything ready for construction and testing.
 
 ## hexagonix.sh
 
