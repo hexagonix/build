@@ -42,6 +42,7 @@ Para construir e testar o Hexagonix, você vai precisar das seguintes dependênc
 Você não pode iniciar o processo sem essas dependências instaladas. Para instalar as dependências necessárias, siga os passos a seguir. Normalmente, a maioria das distruições Linux já contam com o GNU Bash instalado por padrão.
 
 > Instalar as dependências no Debian, Ubuntu, Pop_OS! e derivados:
+
 Para o `Debian`, `Ubuntu` e derivados , a linha a seguir irá instalar as suas dependências (privilégios de superusuário necessários):
 
 ```
@@ -49,6 +50,7 @@ sudo apt install qemu qemu-system-i386 fasm git
 ```
 
 > Instalar no Fedora, CentOS e derivados:
+
 Para o `Fedora` e derivados, a linha a seguir irá instalar o qemu e todas as suas dependências (privilégios de superusuário necessários):
 
 ```
