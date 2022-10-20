@@ -55,6 +55,30 @@ Para o `Fedora` e derivados, a linha a seguir irá instalar o qemu e todas as su
 sudo dnf install qemu qemu-system-i386 fasm git
 ```
 
+</div>
+
+<div align="center">
+
+![virtualbox](https://img.shields.io/badge/VirtualBox-118515?style=for-the-badge&logo=virtualbox&logoColor=white)
+
+</div>
+
+<div align="justify">
+
+Você também pode utilizar o VirtualBox para testar o sistema, embora sua instalação não seja necessária. Caso queira instalar o VirtualBox, use:
+
+> Instalar o VirtualBox no Debian, Ubuntu, Pop_OS! e derivados (privilégios de superusuário necessários):
+
+```
+sudo apt install virtualbox
+```
+
+> Instalar no Fedora, CentOS e derivados (privilégios de superusuário necessários):
+
+```
+sudo dnf install virtualbox
+```
+
 Após a instalação, você poderá seguir com este tutorial.
 
 </div>
