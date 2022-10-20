@@ -29,8 +29,8 @@ Para construir e testar o Hexagonix, você vai precisar das seguintes dependênc
 
 <div align="center">
 
-![fasm](https://img.shields.io/badge/Flat_Assembler-F57842?style=for-the-badge&logo=fasm&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![fasm](https://img.shields.io/badge/Flat_Assembler-F57842?style=for-the-badge&logo=fasm&logoColor=white)
 ![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![qemu](https://img.shields.io/badge/Qemu-0A0A0A?style=for-the-badge&logo=qemu&logoColor=white)
