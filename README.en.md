@@ -19,6 +19,70 @@
 
 <hr>
 
+# Dependencies needed to build Hexagonix
+
+<div align="justify">
+
+To build and test Hexagonix, you will need the following dependencies:
+
+</div>
+
+<div align="center">
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![fasm](https://img.shields.io/badge/Flat_Assembler-F57842?style=for-the-badge&logo=fasm&logoColor=white)
+![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![qemu](https://img.shields.io/badge/Qemu-0A0A0A?style=for-the-badge&logo=qemu&logoColor=white)
+
+</div>
+
+<div align="justify">
+
+You cannot start the process without these dependencies installed. To install the necessary dependencies, follow the steps below. Usually, most Linux distributions already have GNU Bash installed by default.
+
+> Install dependencies on Debian, Ubuntu, Pop_OS! and derivatives:
+For `Debian`, `Ubuntu` and derivatives, the following line will install their dependencies (root privileges required):
+
+```
+sudo apt install qemu qemu-system-i386 fasm git
+```
+
+> Install on Fedora, CentOS and derivatives:
+For `Fedora` and derivatives, the following line will install qemu and all its dependencies (root privileges required):
+
+```
+sudo dnf install qemu qemu-system-i386 fasm git
+```
+
+</div>
+
+<div align="center">
+
+![virtualbox](https://img.shields.io/badge/VirtualBox-118515?style=for-the-badge&logo=virtualbox&logoColor=white)
+
+</div>
+
+<div align="justify">
+
+You can also use VirtualBox to test the system, although its installation is not necessary. If you want to install VirtualBox, use:
+
+> Install VirtualBox on Debian, Ubuntu, Pop_OS! and derivatives (root privileges required):
+
+```
+sudo apt install virtualbox
+```
+
+> Install on Fedora, CentOS and derivatives (root privileges required):
+
+```
+sudo dnf install virtualbox
+```
+
+After installation, you can proceed with this tutorial.
+
+</div>
+
 # Putting everything in its place
 
 The Hexagonix build engine was built to automate the process of mounting system fonts and creating a disk image that can be used to run and test the operating system on a virtual or physical machine. To perform these tasks, the build scripts expect to find files in certain places, which have already been chosen in advance. To facilitate this process for those who want to test the system and have not yet had contact with it, a script was created that clones the repositories necessary to build the system and puts everything in its place, leaving everything ready for construction and testing.
