@@ -6,14 +6,14 @@
 
 <div align="center">
 
-![](https://img.shields.io/github/license/hexagonix/lib.svg)
-![](https://img.shields.io/github/stars/hexagonix/lib.svg)
-![](https://img.shields.io/github/issues/hexagonix/lib.svg)
-![](https://img.shields.io/github/issues-closed/hexagonix/lib.svg)
-![](https://img.shields.io/github/issues-pr/hexagonix/lib.svg)
-![](https://img.shields.io/github/issues-pr-closed/hexagonix/lib.svg)
-![](https://img.shields.io/github/downloads/hexagonix/lib/total.svg)
-![](https://img.shields.io/github/release/hexagonix/lib.svg)
+![](https://img.shields.io/github/license/hexagonix/build.svg)
+![](https://img.shields.io/github/stars/hexagonix/build.svg)
+![](https://img.shields.io/github/issues/hexagonix/build.svg)
+![](https://img.shields.io/github/issues-closed/hexagonix/build.svg)
+![](https://img.shields.io/github/issues-pr/hexagonix/build.svg)
+![](https://img.shields.io/github/issues-pr-closed/hexagonix/build.svg)
+![](https://img.shields.io/github/downloads/hexagonix/build/total.svg)
+![](https://img.shields.io/github/release/hexagonix/build.svg)
 
 </div>
 
