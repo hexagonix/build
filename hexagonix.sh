@@ -63,22 +63,22 @@ clear
 echo -e ";;****************************************************************************"
 echo -e ";;                                                                            "
 echo -e ";;                                                                            "
-echo -e ";; ┌┐ ┌┐                              \e[1;94mSistema Operacional Hexagonix®\e[0m          "
+echo -e ";; ┌┐ ┌┐                              \e[1;94mHexagonix® Operating System\e[0m"
 echo -e ";; ││ ││                                                                      "
 echo -e ";; │└─┘├──┬┐┌┬──┬──┬──┬─┐┌┬┐┌┐ \e[1;94mCopyright © 2016-2022 Felipe Miguel Nery Lunkes\e[0m"
-echo -e ";; │┌─┐││─┼┼┼┤┌┐│┌┐│┌┐│┌┐┼┼┼┼┘       \e[1;94mTodos os direitos reservados\e[0m             "
+echo -e ";; │┌─┐││─┼┼┼┤┌┐│┌┐│┌┐│┌┐┼┼┼┼┘           \e[1;94mAll rights reserved.\e[0m"
 echo -e ";; ││ │││─┼┼┼┤┌┐│└┘│└┘││││├┼┼┐                                                "
 echo -e ";; └┘ └┴──┴┘└┴┘└┴─┐├──┴┘└┴┴┘└┘                                                "
-echo -e ";;              ┌─┘│                  \e[1;32mConstruir o Hexagonix/Andromeda\e[0m "
+echo -e ";;              ┌─┘│                          \e[1;32mBuild Hexagonix\e[0m    "
 echo -e ";;              └──┘                                                          "
 echo -e ";;                                                                            "
 echo -e ";;****************************************************************************"
 echo
 echo
-echo "Clonando os repositórios necessários para construir o Hexagonix®/Andromeda®..."
+echo "Cloning the repositories needed to build Hexagonix®..."
 echo 
 
-# Primeiro, vamos criar os diretórios comuns
+# First, let's create the common directories
 
 mkdir -p Hexagonix/
 
@@ -89,50 +89,51 @@ mkdir -p Boot/
 mkdir -p Externos/
 mkdir -p Dist/
 
-# Vamos clonar o Hexagon
+# Let's clone Hexagon
 
 git clone https://github.com/hexagonix/Hexagon Hexagon
 
-# Vamos clonar o Saturno e o HBoot
+
+# Let's clone Saturno and HBoot
 
 git clone https://github.com/hexagonix/Saturno Boot/Saturno
 git clone https://github.com/hexagonix/HBoot "Boot/Hexagon Boot"
 
-# Vamos agora clonar os respositórios de utilitários
+# Let's now clone the utility repositories
 
 git clone https://github.com/hexagonix/Unix-Apps Apps/Unix
 git clone https://github.com/hexagonix/Andromeda-Apps Apps/Andromeda
 
-# Vamos clonar as bibliotecas 
+# Let's clone the libraries
 
 git clone https://github.com/hexagonix/lib lib
 
-# Agora vamos clocar arquivos estáticos e manuais
+# Now let's place static and manual files
 
 git clone https://github.com/hexagonix/man Dist/man
 git clone https://github.com/hexagonix/etc Dist/etc
 
-# Vamos clonar as fontes gráficas
+# Let's clone the graphic fonts
 
 git clone https://github.com/hexagonix/xfnt Fontes
 
-# Agora, fasmX
+# Now fasmX
 
 git clone https://github.com/hexagonix/fasmX Externos/fasmX
 
-# Agora o repositório de imagens
+# Now the image repository
 
 git clone https://github.com/hexagonix/hexagonix hexagonix
 
-# Agora, a documentação
+# Now the documentation
 
 git clone https://github.com/hexagonix/Doc
 
-# Por último, os scripts de geração do sistema
+# Lastly, the system generation scripts
 
 git clone https://github.com/hexagonix/scriptsHX Scripts
 
-# Agora vamos colocar as coisas no lugar 
+# Now let's put things in place
 
 cd Scripts 
 
@@ -143,11 +144,11 @@ cd ..
 
 chmod +x configure.sh hx 
 
-# Agora, remover o próprio script
+# Now remove the script itself
 
 rm -r ../hexagonix.sh 
 echo
-echo -e "[\e[32mTudo pronto!\e[0m]"
+echo -e "[\e[32mAll ready!\e[0m]"
 echo
 
 exit 
@@ -162,23 +163,23 @@ clear
 echo -e ";;****************************************************************************"
 echo -e ";;                                                                            "
 echo -e ";;                                                                            "
-echo -e ";; ┌┐ ┌┐                              \e[1;94mSistema Operacional Hexagonix®\e[0m          "
+echo -e ";; ┌┐ ┌┐                              \e[1;94mHexagonix® Operating System\e[0m"
 echo -e ";; ││ ││                                                                      "
 echo -e ";; │└─┘├──┬┐┌┬──┬──┬──┬─┐┌┬┐┌┐ \e[1;94mCopyright © 2016-2022 Felipe Miguel Nery Lunkes\e[0m"
-echo -e ";; │┌─┐││─┼┼┼┤┌┐│┌┐│┌┐│┌┐┼┼┼┼┘       \e[1;94mTodos os direitos reservados\e[0m             "
+echo -e ";; │┌─┐││─┼┼┼┤┌┐│┌┐│┌┐│┌┐┼┼┼┼┘           \e[1;94mAll rights reserved.\e[0m"
 echo -e ";; ││ │││─┼┼┼┤┌┐│└┘│└┘││││├┼┼┐                                                "
 echo -e ";; └┘ └┴──┴┘└┴┘└┴─┐├──┴┘└┴┴┘└┘                                                "
-echo -e ";;              ┌─┘│                  \e[1;32mConstruir o Hexagonix/Andromeda\e[0m "
+echo -e ";;              ┌─┘│                          \e[1;32mBuild Hexagonix\e[0m    "
 echo -e ";;              └──┘                                                          "
 echo -e ";;                                                                            "
 echo -e ";;****************************************************************************"
 echo
-echo -e "Verificando dependências necessárias para clonar os repositórios..."
+echo -e "Checking dependencies needed to clone the repositories..."
 echo 
 
-# Agora vamos verificar cada dependência do mecanismo de construção
+# Now let's check each build engine dependency
 
-# Dependência 1
+# Dependency 1
 
 echo -n " > git "
 
@@ -188,8 +189,8 @@ echo -e "[\e[32mOk\e[0m]"
 
 else
 
-echo -e "[\e[31mNão localizado\e[0m]"
-echo -e "   > \e[1;31mVocê NÃO pode iniciar sem essa dependência\e[0m."
+echo -e "[\e[31mNot found\e[0m]"
+echo -e "   > \e[1;31mYou CANNOT start without this dependency\e[0m."
 
 exit
 
