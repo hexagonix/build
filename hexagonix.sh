@@ -124,6 +124,10 @@ git clone https://github.com/hexagonix/fasmX Externos/fasmX
 
 git clone https://github.com/hexagonix/hexagonix hexagonix
 
+# Agora, a documentação
+
+git clone https://github.com/hexagonix/Doc
+
 # Por último, os scripts de geração do sistema
 
 git clone https://github.com/hexagonix/scriptsHX Scripts
