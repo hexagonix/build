@@ -143,9 +143,20 @@ cd ..
 
 chmod +x configure.sh hx 
 
+# Let's clone hx autobuild 
+
+git clone https://github.com/felipenlunkes/hexagonix-autobuild autohx
+
+cd autohx 
+
+cp autohx.py ../
+
+cd ..
+
 # Now remove the script itself
 
 rm -r ../hexagonix.sh 
+
 echo
 echo -e "[\e[32mAll ready!\e[0m]"
 echo
