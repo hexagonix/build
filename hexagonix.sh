@@ -141,8 +141,6 @@ cp Externos.sh ../Externos
 
 cd ..
 
-chmod +x configure.sh hx 
-
 # Let's clone hx autobuild 
 
 git clone https://github.com/felipenlunkes/hexagonix-autobuild autohx
@@ -152,6 +150,8 @@ cd autohx
 cp autohx.py ../
 
 cd ..
+
+chmod +x configure.sh hx autohx.py
 
 # Now remove the script itself
 
