@@ -68,7 +68,7 @@
 #
 # $HexagonixOS$
 
-# Versão 2.0
+# Versão 1.0
 
 clonarRepos()
 {
@@ -80,7 +80,7 @@ echo -e ";;                                                                     
 echo -e ";;                                                                            "
 echo -e ";; ┌┐ ┌┐                              \e[1;94mHexagonix® Operating System\e[0m"
 echo -e ";; ││ ││                                                                      "
-echo -e ";; │└─┘├──┬┐┌┬──┬──┬──┬─┐┌┬┐┌┐ \e[1;94mCopyright © 2015-2023 Felipe Miguel Nery Lunkes\e[0m"
+echo -e ";; │└─┘├──┬┐┌┬──┬──┬──┬─┐┌┬┐┌┐ \e[1;94mCopyright © 2016-2022 Felipe Miguel Nery Lunkes\e[0m"
 echo -e ";; │┌─┐││─┼┼┼┤┌┐│┌┐│┌┐│┌┐┼┼┼┼┘           \e[1;94mAll rights reserved.\e[0m"
 echo -e ";; ││ │││─┼┼┼┤┌┐│└┘│└┘││││├┼┼┐                                                "
 echo -e ";; └┘ └┴──┴┘└┴┘└┴─┐├──┴┘└┴┴┘└┘                                                "
@@ -97,12 +97,57 @@ echo
 
 mkdir -p Hexagonix/
 
-git clone https://github.com/hexagonix/src Hexagonix/
+cd Hexagonix 
 
-cd Hexagonix
+mkdir -p Apps/
+mkdir -p Boot/
+mkdir -p Externos/
+mkdir -p Dist/
 
-git submodule init
-git submodule update
+# Let's clone Hexagon
+
+git clone https://github.com/hexagonix/Hexagon Hexagon
+
+# Let's clone Saturno and HBoot
+
+git clone https://github.com/hexagonix/Saturno Boot/Saturno
+git clone https://github.com/hexagonix/HBoot "Boot/Hexagon Boot"
+
+# Let's now clone the utility repositories
+
+git clone https://github.com/hexagonix/Unix-Apps Apps/Unix
+git clone https://github.com/hexagonix/Andromeda-Apps Apps/Andromeda
+
+# Let's clone the libraries
+
+git clone https://github.com/hexagonix/lib lib
+
+# Now let's place static and manual files
+
+git clone https://github.com/hexagonix/man Dist/man
+git clone https://github.com/hexagonix/etc Dist/etc
+
+# Let's clone the graphic fonts
+
+git clone https://github.com/hexagonix/xfnt Fontes
+
+# Now fasmX
+
+git clone https://github.com/hexagonix/fasmX Externos/fasmX
+
+# Now the image repository
+
+git clone https://github.com/hexagonix/hexagonix hexagonix
+
+# Now the documentation
+
+git clone https://github.com/hexagonix/Doc
+
+# Lastly, the system generation scripts
+
+git clone https://github.com/hexagonix/scriptsHX Scripts
+
+# Now let's put things in place
 
 cd Scripts 
 
@@ -145,7 +190,7 @@ echo -e ";;                                                                     
 echo -e ";;                                                                            "
 echo -e ";; ┌┐ ┌┐                              \e[1;94mHexagonix® Operating System\e[0m"
 echo -e ";; ││ ││                                                                      "
-echo -e ";; │└─┘├──┬┐┌┬──┬──┬──┬─┐┌┬┐┌┐ \e[1;94mCopyright © 2015-2023 Felipe Miguel Nery Lunkes\e[0m"
+echo -e ";; │└─┘├──┬┐┌┬──┬──┬──┬─┐┌┬┐┌┐ \e[1;94mCopyright © 2016-2022 Felipe Miguel Nery Lunkes\e[0m"
 echo -e ";; │┌─┐││─┼┼┼┤┌┐│┌┐│┌┐│┌┐┼┼┼┼┘           \e[1;94mAll rights reserved.\e[0m"
 echo -e ";; ││ │││─┼┼┼┤┌┐│└┘│└┘││││├┼┼┐                                                "
 echo -e ";; └┘ └┴──┴┘└┴┘└┴─┐├──┴┘└┴┴┘└┘                                                "
