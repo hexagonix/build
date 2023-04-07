@@ -107,7 +107,7 @@ git submodule update
 cd Scripts 
 
 cp configure.sh hx ../
-cp Externos.sh ../Externos
+cp Contrib.sh ../Contrib
 
 cd ..
 
