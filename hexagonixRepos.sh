@@ -133,7 +133,7 @@ git clone https://github.com/hexagonix/xfnt Fontes
 
 # Now fasmX
 
-git clone https://github.com/hexagonix/fasmX Externos/fasmX
+git clone https://github.com/hexagonix/fasmX Contrib/fasmX
 
 # Now the image repository
 
@@ -152,7 +152,7 @@ git clone https://github.com/hexagonix/scriptsHX Scripts
 cd Scripts 
 
 cp configure.sh hx ../
-cp Externos.sh ../Externos
+cp Contrib.sh ../Contrib
 
 cd ..
 
