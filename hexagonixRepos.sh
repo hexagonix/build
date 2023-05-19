@@ -101,7 +101,6 @@ cd Hexagonix
 
 mkdir -p Apps/
 mkdir -p Boot/
-mkdir -p Externos/
 mkdir -p Dist/
 
 # Let's clone Hexagon
