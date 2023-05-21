@@ -143,10 +143,10 @@ O script `configure.sh` é responsável por criar arquivos estáticos necessári
 sudo ./configure.sh
 ```
 
-Após a execução, você está apto a construir o sistema. Para isso, você deve utilizar a ferramenta `hx`, presente no diretório do sistema e que também foi copiada para `/usr/bin`. Para gerar uma imagem do Hexagonix e Andromeda, use:
+Após a execução, você está apto a construir o sistema. Para isso, você deve utilizar a ferramenta `hx`, presente no diretório do sistema e que também foi copiada para `/usr/bin`. Para gerar uma imagem do Hexagonix, use:
 
 ```
-hx -i hx  # Gerar uma imagem do Hexagonix
+sudo hx -i hx  # Gerar uma imagem do Hexagonix
 ```
 
 </div>
