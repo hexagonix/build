@@ -28,8 +28,8 @@
 <br>
 <summary align='left'>🛠 Construir o sistema/build the system</summary>
 
-* [Português (Brasil)](README.pt.md)
-* [English](README.en.md)
+* :brazil: [Português (Brasil)](README.pt.md)
+* :uk: [English](README.en.md)
 
 </details>
 
@@ -37,8 +37,8 @@
 <br>
 <summary align='left'>📚 Documentação/documentation</summary>
 
-* [Português (Brasil)](https://github.com/hexagonix/Doc)
-* [English](https://github.com/hexagonix/Doc)
+* :brazil: [Português (Brasil)](https://github.com/hexagonix/Doc)
+* :uk: [English](https://github.com/hexagonix/Doc)
 
 </details>
 
