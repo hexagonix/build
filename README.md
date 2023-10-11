@@ -37,8 +37,8 @@
 <br>
 <summary align='left'>📚 Documentação/documentation</summary>
 
-* [Português (Brasil) - em construção](https://github.com/hexagonix/Doc)
-* [English - under construction](https://github.com/hexagonix/Doc)
+* [Português (Brasil)](https://github.com/hexagonix/Doc)
+* [English](https://github.com/hexagonix/Doc)
 
 </details>
 
