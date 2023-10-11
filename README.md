@@ -22,8 +22,6 @@
 
 <img src="https://github.com/hexagonix/Doc/blob/main/Img/hr.png" width="100%" height="2px" />
 
-# ⭐ Pegue um atalho/take a shortcut
-
 <details title="Construir o sistema/build the system" align='left'>
 <br>
 <summary align='left'>🛠 Construir o sistema/build the system</summary>
