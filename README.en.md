@@ -35,6 +35,7 @@ To build and test Hexagonix, you will need the following dependencies:
 ![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![qemu](https://img.shields.io/badge/Qemu-0A0A0A?style=for-the-badge&logo=qemu&logoColor=white)
+![uuid](https://img.shields.io/badge/UUID-0078D6?style=for-the-badge&&logoColor=white)
 
 </div>
 
@@ -47,7 +48,7 @@ You cannot start the process without these dependencies installed. To install th
 For `Debian`, `Ubuntu` and derivatives, the following line will install their dependencies (root privileges required):
 
 ```
-sudo apt install qemu qemu-system-i386 fasm git
+sudo apt install qemu qemu-system-i386 fasm git uuid
 ```
 
 > Install on Fedora, CentOS and derivatives:
@@ -55,7 +56,7 @@ sudo apt install qemu qemu-system-i386 fasm git
 For `Fedora` and derivatives, the following line will install qemu and all its dependencies (root privileges required):
 
 ```
-sudo dnf install qemu qemu-system-i386 fasm git
+sudo dnf install qemu qemu-system-i386 fasm git uuid
 ```
 
 </div>

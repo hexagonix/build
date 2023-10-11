@@ -35,6 +35,7 @@ Para construir e testar o Hexagonix, você vai precisar das seguintes dependênc
 ![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![qemu](https://img.shields.io/badge/Qemu-0A0A0A?style=for-the-badge&logo=qemu&logoColor=white)
+![uuid](https://img.shields.io/badge/UUID-0078D6?style=for-the-badge&&logoColor=white)
 
 </div>
 
@@ -47,7 +48,7 @@ Você não pode iniciar o processo sem essas dependências instaladas. Para inst
 Para o `Debian`, `Ubuntu` e derivados , a linha a seguir irá instalar as suas dependências (privilégios de superusuário necessários):
 
 ```
-sudo apt install qemu qemu-system-i386 fasm git
+sudo apt install qemu qemu-system-i386 fasm git uuid
 ```
 
 > Instalar no Fedora, CentOS e derivados:
@@ -55,7 +56,7 @@ sudo apt install qemu qemu-system-i386 fasm git
 Para o `Fedora` e derivados, a linha a seguir irá instalar o qemu e todas as suas dependências (privilégios de superusuário necessários):
 
 ```
-sudo dnf install qemu qemu-system-i386 fasm git
+sudo dnf install qemu qemu-system-i386 fasm git uuid
 ```
 
 </div>
