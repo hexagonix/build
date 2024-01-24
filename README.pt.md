@@ -170,6 +170,6 @@ Para mais informações, confira a documentação.
 
 <!-- Versão do arquivo: 1.0
 
-Copyright © 2015-2022 Felipe Miguel Nery Lunkes
+Copyright © 2015-2024 Felipe Miguel Nery Lunkes
 
 -->
