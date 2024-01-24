@@ -110,7 +110,7 @@ git clone https://github.com/hexagonix/Hexagon Hexagon
 # Let's clone Saturno and HBoot
 
 git clone https://github.com/hexagonix/Saturno Boot/Saturno
-git clone https://github.com/hexagonix/HBoot "Boot/Hexagon Boot"
+git clone https://github.com/hexagonix/HBoot Boot/HBoot
 
 # Let's now clone the utility repositories
 
