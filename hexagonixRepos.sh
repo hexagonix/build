@@ -68,9 +68,9 @@
 #
 # $HexagonixOS$
 
-# Versão 1.1
+# Version 2.0
 
-clonarRepos()
+cloneRepositories()
 {
 
 clear
@@ -128,7 +128,7 @@ git clone https://github.com/hexagonix/etc Dist/etc
 
 # Let's clone the graphic fonts
 
-git clone https://github.com/hexagonix/xfnt Fontes
+git clone https://github.com/hexagonix/xfnt Fonts
 
 # Now fasmX
 
@@ -179,7 +179,7 @@ exit
 
 }
 
-checarDependencias()
+verifyDependencies()
 {
 
 clear
@@ -220,8 +220,8 @@ exit
 
 fi	
 
-clonarRepos
+cloneRepositories
 
 }
 
-checarDependencias
+verifyDependencies
