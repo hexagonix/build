@@ -68,9 +68,9 @@
 #
 # $HexagonixOS$
 
-# Versão 2.1
+# Version 3.0
 
-clonarRepos()
+cloneRepositories()
 {
 
 clear
@@ -135,7 +135,7 @@ exit
 
 }
 
-checarDependencias()
+verifyDependencies()
 {
 
 clear
@@ -176,8 +176,8 @@ exit
 
 fi	
 
-clonarRepos
+cloneRepositories
 
 }
 
-checarDependencias
+verifyDependencies
